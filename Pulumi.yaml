@@ -1,0 +1,6 @@
+name: pm-container-service
+description: A Python program to deploy a containerized service on AWS
+runtime:
+    name: python
+    options:
+        virtualenv: venv
