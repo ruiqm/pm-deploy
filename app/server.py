@@ -18,7 +18,7 @@ def reverse(string):
   
 @app.route('/maths/<int:num1>/<int:num2>')
 def maths(num1,num2):
-    return str(num1+num2)
+    return str(num1*num2)
 
 
 if __name__ == '__main__':
